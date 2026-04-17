@@ -1,7 +1,7 @@
-# Populus Patria — Enterprise EdTech Ecosystem & Language Economy
+# Populus Patria — Enterprise EdTech Ecosystem
 
 > **Category:** Enterprise SaaS / Credit-Based Marketplace  
-> **Client:** Confidential / Elevate Agency  
+> **Client:** Populus Patria / Elevate Agency  
 > **Lead Architect:** Sebastian Hernandez ([Elevate Agency](https://your-elevate-link.com))  
 > **Project Status:** In Production (v2.0)
 
@@ -31,7 +31,7 @@ Traditional language schools struggle with "Tool Fragmentation"—relying on dis
 Populus Patria solves this by providing a unified, Enterprise-Grade Language Economy. It consolidates the entire student lifecycle into a single, high-performance dashboard, eliminating data silos and administrative friction.
 
 **Key Links:**
-* [Live Demo / Website](#) 
+* [Live Demo / Website](https://app.populuspatria.com/) 
 * [Platform Walkthrough (Loom)](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -40,14 +40,14 @@ Populus Patria solves this by providing a unified, Enterprise-Grade Language Eco
 * **Automated "Meet-to-Archive" Lifecycle:** A sophisticated pipeline that generates Google Meet links upon booking, detects finished sessions via Node-cron, fetches recordings, and maps them to the correct students automatically.
 * **Intelligent "Shadow" Recordings:** A unique access-control system ensuring students only view recordings of classes that occurred *after* their specific enrollment date, protecting historical intellectual property.
 * **Hybrid Community Engine:** Deep integration with Rocket.Chat featuring SSO. It acts as the social layer while preventing platform leakage by blocking the unauthorized exchange of personal data.
-* **Multi-Modal Wallet System:** A virtual economy supporting Stripe for global transactions across five distinct modalities: CPP (Personalized), CGG (General Group), CGP (Private Group), CPM (Multicultural), and CCC (Conversation Club).
+* **Multi-Modal Wallet System:** A virtual economy supporting Stripe for global transactions across five distinct modalities: CPP (Personalized), CGG (General Group), CGP (Private Group), and CCC (Conversation Club).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🏗️ Architectural Design <a name="architectural-design"></a>
 Built using a **Domain-Driven Design (DDD)** approach combined with a Layered Architecture to ensure high maintainability.
 
-* **Domain Modules:** The system is split into independent domains including Auth, Payment, Classroom, and Community.
+* **Domain Modules:** The system is split into independent domains, including Auth, Payment, Classroom, and Community.
 * **Controllers:** Handle strictly HTTP logic and routing.
 * **Services:** Encapsulate the core business logic and virtual economy rules.
 * **Repositories:** Abstract the Serverless PostgreSQL persistence layer.
@@ -93,8 +93,8 @@ I am available for a **Live Technical Deep-Dive** via screen-share to demonstrat
 👤 **Sebastian Hernandez**
 * **Role:** Lead Full-Stack Engineer / Architect
 * **Agency:** [Elevate Agency](https://your-elevate-link.com)
-* **LinkedIn:** [Sebastian Hernandez](https://www.linkedin.com/in/your-profile)
-* **GitHub:** [@your-github](https://github.com/your-github)
+* **LinkedIn:** [Sebastian Hernandez](https://www.linkedin.com/in/sebastian-hernandez-munoz/)
+* **GitHub:** [@your-github](https://github.com/shm04)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
